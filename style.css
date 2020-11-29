@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+Body{
+    Padding:0;
+    Margin:0;
+}
+nav.nav{
+    width: 100%;
+    height: 130px;
+    margin: 0 auto;
+    background-color: #4c8f96;
+}
+nav .section{
+    width: 1000px;
+    height: 130px;
+    /* background-color: crimson; */
+    margin: 0 auto;
+}
+
+div.logo {
+    background-color: #222841;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    padding: 0;
+    width: 224px;
+    height: 120px;
+    float:  left;
+    margin-top: 30px;
+    font-size: 37px;
+    margin-right : 40px;
+    text-align: center;
+}
+
+.logo h1{
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+div.menu {
+    /* background-color: black; */
+    width: 70%;
+    height: 130px;
+    float: right;
+
+}
+
+ul{
+    display: inline-block;
+    float: right;
+    margin: 0;
+    overflow: hidden;
+    padding: 80px 0 0;  
+}
+li{
+    float: left;
+    padding-inline-start: 0px;   
+}
+
+ul li{
+    margin-right: 43px;
+    list-style-type: none;
+}
+ul li a{
+    background-color: #000000;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 30px;
+    letter-spacing: 0.05em;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+a.selected{
+    background-color: rgb(0,0,0,.6);
+}
+
+div.main_wraper{
+    width: 940px;
+    height: 1400px;
+    margin: 0 auto;   
+}
+
+div.main{
+    background: #fff;
+    border: 2px solid #5fb3bd;
+    border-radius: 4px;
+    margin: 30px auto 27px;
+    overflow: hidden;
+    width: 936px;
+   
+}
+
+.main img{
+    float: left;
+    margin-right: 10px;
+}
+h1.had_main{
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 49px;
+    font-family: 'ChangaOne';
+    font-weight: 700;
+}
+
+div.wraper1{
+    width: 222px;
+    height: 400px;
+    margin:1px;
+    padding: 5px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+div.wraper1 img{
+    border: 3px solid  #5fb3bd ;
+    margin-bottom:  30px;
+}
+div.wraper1, .head{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.wraper1, .pera{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    line-height: 22px;
+}
+
+/* div.3-div start hear*/
+/* div.3-div{
+   padding: 10px;
+   margin-left: 10px;   
+} */
+div.left-box{
+    width: 440px;
+    height: 550px;
+    border: 3px solid cyan;
+    clear: both;
+    float: left;
+}
+
+div.featured{
+    background-color:#222841;
+    width: 160px;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 20px;
+    letter-spacing: 0.1em;
+    line-height: 37px;
+    margin-left: 15px;
+    margin-top: 0;
+    position: relative;
+    top: -41px;
+    left: 10px;
+}
+
+.left-box img{
+    float: left;
+    margin-left: 19px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -29PX;
+}
+
+.left-box h3{
+    /* display: inline-block; */
+    float: left;
+    margin-left: 40px;
+    margin-top: 0;
+}
+.left-box p{
+    clear: both;
+    padding: 5px;
+    font-size: 15px; 
+}
+
+div.right-top{
+    width: 440px;
+    border: 3px solid cyan;
+    float: left;
+    background-color: cyan;
+    margin-left: 15px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.right-top p{
+    font-size: 16px;
+}
+div.right-bottom{
+    width: 445px;
+    height: 230px;
+    border: 3px solid cyan;
+    background-color: cyan;
+    float: left;
+    margin-left: 19px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+div.right-bottom img{
+    float: left;
+    margin-top: 0px;
+}
+.right-bottom h3{
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 12px;
+}
+
+div.footer{
+    width: 100%;
+    height: 90px;
+    background-color: #4c8f96;
+    clear: both;
+    position: relative;
+}
+div.footer h3{
+    text-align: center;
+    position: relative;
+    top: 27px;
+    left: 34px;
+}
+
+div.social{
+    background: rgb(0,0,0,0.5);
+    width: 150px;
+    height: 40px;
+    float: right;
+    position: absolute;
+    top: 28px;
+    right: 345px;
+}
+.social span.fa{
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
